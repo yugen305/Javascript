@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+	<head>	    
+	    <meta charset="utf-8">
+		<title>MARS ROVER KATA (Jordi González)</title>
+		<script src='mars_rover.js'></script>			    
+	</head>
+
+	<body>	
+		<H1>MARS ROVER KATA</H1>
+		<p><b>by Jordi González</b></p><br>
+		<p>Rover initial status: X = 0, Y = 0, Facing North.</p><br>
+		<p>Obstacle 1 position: X = 2, Y = 2. Obstacle 2 position: X=32, Y=87.</p><br>
+		<p>Grid Dimensions: 100 x 100</p><br>
+		<p>Enter commands (// f: forward // b: backward // l: left // r: right //)</p><br>	
+		<input id="instr" type="text">
+		<button type="button" onclick="move_rover()">Move the rover</button>
+		<button type="button" onclick="reset()">Reset</button>
+		<br><br>
+		<p>---------------------------------------------------------------------------------------</p>
+		<b><div id="pos">Rover Position: X=0 Y=0 Facing N</div></b>
+		<p>---------------------------------------------------------------------------------------</p>
+	</body>
+
+</html>
